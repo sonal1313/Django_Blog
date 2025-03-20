@@ -1,9 +1,10 @@
 # Django Blog Application
 
 ![Blog Homepage](screenshots/homepage.png)
-![Post Detail](screenshots/post_detail.png)
-![User Profile](screenshots/user_profile.png)
-![Update Post](screenshots/update_post.png)
+![Post Update](screenshots/post_update.png)
+![User Profile](screenshots/profile_update.png)
+![Register User](screenshots/register.png)
+![Login User](screenshots/login.png)
 
 ## 📌 Overview
 This is a **full-featured blog application** built using **Django, HTML, CSS, Bootstrap, and SQLite**. It allows users to create and manage their own blog posts while providing a clean and user-friendly interface with authentication, profile management, and pagination.
