@@ -1,0 +1,28 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<article class="media content-section">
+    <div class="media-body">
+      <h2 class="article-title" >About this blog</h2>
+      <p class="article-content">This blog was built by following 
+        <a href="https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU" target="_blank">
+            Corey Schafer's Django tutorial playlist
+        </a>.
+        Through this project, I have learned a lot about Django and web development, and I'm excited to continue learning and improving my skills.</p>
+    </div>
+  </article>
+  <article class="media content-section">
+    <div class="media-body">
+      <h2 class="article-title" >About me</h2>
+      <p class="article-content">
+        I am passionate about software development, particularly in Django and full-stack web development.
+            You can find more about my work here:
+            <div>
+            <ul>
+                <li><a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a></li>
+            </ul>
+            </div>
+      </p>
+    </div>
+  </article>
+{% endblock content %}
